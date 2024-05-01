@@ -1,2 +1,2 @@
 release:
-	../frost.elf "test.frost"
+	../forge.elf "test.forge"

@@ -1,3 +1,14 @@
 {
-    "parser_name": "test"
+    "parser_name": "test",
+    "nodes": [
+        {
+            "name": "file",
+            "configurations": [
+                [
+                    "functions",
+                    "[EOF]"
+                ]
+            ]
+        }
+    ]
 }

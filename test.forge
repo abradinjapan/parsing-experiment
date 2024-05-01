@@ -1,0 +1,17 @@
+[ print new line ]
+print.new_line()() = {
+    forge.set(forge.integer.10)(character)
+    forge.print.character(character)()
+}
+
+[ entry point ]
+main()() = {
+    [ setup file paths ]
+    forge.set("json/parser_1.json")(blueprint.start blueprint.end)
+
+    [ print file path ]
+    forge.print.buffer_as_string(blueprint.start blueprint.end)()
+
+    [ print new line for next program ]
+    print.new_line()()
+}
